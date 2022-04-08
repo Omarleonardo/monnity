@@ -100,10 +100,10 @@ WSGI_APPLICATION = 'financesAdmin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd59c3kbht9f4gv',
-        'USER': 'ogscjfwtawgfso',
-        'PASSWORD': '4446835285753fd7c32c8108c8b3b94ec32ad9c8fdee17477a2f21b74f7e6dff',
-        'HOST': 'ec2-3-229-161-70.compute-1.amazonaws.com',
+        'NAME': 'd1f49u8cj6e8t',
+        'USER': 'wexyvdsxfxhmqp',
+        'PASSWORD': '79d1f3f35ee23175aaa98e62ceb207e8617a03a0d546ed3db2d46b2a07c5e127',
+        'HOST': 'ec2-34-197-84-74.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -150,5 +150,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# import django_heroku 
-# django_heroku.settings(locals())
+import django_heroku 
+django_heroku.settings(locals())
