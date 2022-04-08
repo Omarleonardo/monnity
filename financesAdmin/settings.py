@@ -100,10 +100,10 @@ WSGI_APPLICATION = 'financesAdmin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ddd7k4ne5037vp',
-        'USER': 'nazvhfrygivmhu',
-        'PASSWORD': '345da99c102c16cccd606925bfca7b6860467cf3705ec9c268d114e606d350d0',
-        'HOST': 'ec2-34-231-63-30.compute-1.amazonaws.com',
+        'NAME': 'd59c3kbht9f4gv',
+        'USER': 'ogscjfwtawgfso',
+        'PASSWORD': '4446835285753fd7c32c8108c8b3b94ec32ad9c8fdee17477a2f21b74f7e6dff',
+        'HOST': 'ec2-3-229-161-70.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
