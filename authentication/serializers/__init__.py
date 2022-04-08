@@ -1,2 +1,3 @@
 from .accountSerializer import AccountSerializer
 from .useridSerializer import UserSerializer
+from .updatePassSerializer import UpdatePassSerializer
